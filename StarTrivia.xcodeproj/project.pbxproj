@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3255A879CD51FA53AA63302B /* Pods_StarTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8186A702543D76EE45537209 /* Pods_StarTrivia.framework */; };
+		574214C8214828FD00675FFA /* FadeEnabledBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574214C7214828FD00675FFA /* FadeEnabledBtn.swift */; };
+		577F8EBB2150F8900098E9F0 /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F8EBA2150F8900098E9F0 /* Starships.swift */; };
+		577F8EBD2150FDB60098E9F0 /* StarshipsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F8EBC2150FDB60098E9F0 /* StarshipsApi.swift */; };
+		577F8EBF21510D9B0098E9F0 /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F8EBE21510D9B0098E9F0 /* Films.swift */; };
+		577F8EC121510E8F0098E9F0 /* FilmApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577F8EC021510E8F0098E9F0 /* FilmApi.swift */; };
+		57958E342146AC6600EF507D /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57958E332146AC6600EF507D /* PersonAPI.swift */; };
+		57958E362146B24F00EF507D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57958E352146B24F00EF507D /* Person.swift */; };
+		57BC546C214A52EF00FFDAC0 /* HomeWorldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC546B214A52EF00FFDAC0 /* HomeWorldVC.swift */; };
+		57BC546E214A531300FFDAC0 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC546D214A531300FFDAC0 /* VehiclesVC.swift */; };
+		57BC5470214A532800FFDAC0 /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC546F214A532800FFDAC0 /* StarshipsVC.swift */; };
+		57BC5472214A534000FFDAC0 /* FilmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC5471214A533F00FFDAC0 /* FilmsVC.swift */; };
+		57BC5474214A63B500FFDAC0 /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC5473214A63B500FFDAC0 /* Homeworld.swift */; };
+		57BC5476214A644A00FFDAC0 /* HomeworldAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC5475214A644A00FFDAC0 /* HomeworldAPI.swift */; };
+		57BC5478214A72C400FFDAC0 /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC5477214A72C400FFDAC0 /* Vehicles.swift */; };
+		57BC547A214A73BF00FFDAC0 /* VehiclesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC5479214A73BF00FFDAC0 /* VehiclesAPI.swift */; };
+		57F577AA2142D139006FB8C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F577A92142D139006FB8C0 /* AppDelegate.swift */; };
+		57F577AC2142D139006FB8C0 /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F577AB2142D139006FB8C0 /* SelectPersonVC.swift */; };
+		57F577AF2142D139006FB8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F577AD2142D139006FB8C0 /* Main.storyboard */; };
+		57F577B12142D13B006FB8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F577B02142D13B006FB8C0 /* Assets.xcassets */; };
+		57F577B42142D13B006FB8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F577B22142D13B006FB8C0 /* LaunchScreen.storyboard */; };
+		57F577BE2142D314006FB8C0 /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F577BB2142D313006FB8C0 /* Starjhol.ttf */; };
+		57F577BF2142D314006FB8C0 /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F577BC2142D314006FB8C0 /* Starjout.ttf */; };
+		57F577C02142D314006FB8C0 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F577BD2142D314006FB8C0 /* Starjedi.ttf */; };
+		57F577C72142DB5C006FB8C0 /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F577C62142DB5C006FB8C0 /* BlackBgView.swift */; };
+		57F577CA2142DBD2006FB8C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F577C92142DBD2006FB8C0 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		574214C7214828FD00675FFA /* FadeEnabledBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnabledBtn.swift; sourceTree = "<group>"; };
+		577F8EBA2150F8900098E9F0 /* Starships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
+		577F8EBC2150FDB60098E9F0 /* StarshipsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsApi.swift; sourceTree = "<group>"; };
+		577F8EBE21510D9B0098E9F0 /* Films.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
+		577F8EC021510E8F0098E9F0 /* FilmApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmApi.swift; sourceTree = "<group>"; };
+		57958E332146AC6600EF507D /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
+		57958E352146B24F00EF507D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		57BC546B214A52EF00FFDAC0 /* HomeWorldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorldVC.swift; sourceTree = "<group>"; };
+		57BC546D214A531300FFDAC0 /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
+		57BC546F214A532800FFDAC0 /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
+		57BC5471214A533F00FFDAC0 /* FilmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVC.swift; sourceTree = "<group>"; };
+		57BC5473214A63B500FFDAC0 /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
+		57BC5475214A644A00FFDAC0 /* HomeworldAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldAPI.swift; sourceTree = "<group>"; };
+		57BC5477214A72C400FFDAC0 /* Vehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
+		57BC5479214A73BF00FFDAC0 /* VehiclesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesAPI.swift; sourceTree = "<group>"; };
+		57F577A62142D139006FB8C0 /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F577A92142D139006FB8C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57F577AB2142D139006FB8C0 /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
+		57F577AE2142D139006FB8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F577B02142D13B006FB8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57F577B32142D13B006FB8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57F577B52142D13B006FB8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F577BB2142D313006FB8C0 /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		57F577BC2142D314006FB8C0 /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		57F577BD2142D314006FB8C0 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		57F577C62142DB5C006FB8C0 /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
+		57F577C92142DBD2006FB8C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8186A702543D76EE45537209 /* Pods_StarTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE46F8084AF16A10B0C28FB /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
+		FD52CE7274CAE761256AE6FC /* Pods-StarTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F577A32142D139006FB8C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3255A879CD51FA53AA63302B /* Pods_StarTrivia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57958E322146AC4100EF507D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				57958E332146AC6600EF507D /* PersonAPI.swift */,
+				57BC5475214A644A00FFDAC0 /* HomeworldAPI.swift */,
+				57BC5479214A73BF00FFDAC0 /* VehiclesAPI.swift */,
+				577F8EBC2150FDB60098E9F0 /* StarshipsApi.swift */,
+				577F8EC021510E8F0098E9F0 /* FilmApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		57F5779D2142D139006FB8C0 = {
+			isa = PBXGroup;
+			children = (
+				57F577A82142D139006FB8C0 /* StarTrivia */,
+				57F577A72142D139006FB8C0 /* Products */,
+				F0E1B28323BD32126FAE7E29 /* Pods */,
+				A376A0FE5CD97C797D72C6B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57F577A72142D139006FB8C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F577A62142D139006FB8C0 /* StarTrivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F577A82142D139006FB8C0 /* StarTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				57958E322146AC4100EF507D /* Services */,
+				57F577C82142DBBD006FB8C0 /* Utils */,
+				57F577C52142D365006FB8C0 /* Model */,
+				57F577C42142D35D006FB8C0 /* View */,
+				57F577C32142D34F006FB8C0 /* Controller */,
+				57F577A92142D139006FB8C0 /* AppDelegate.swift */,
+				57F577AD2142D139006FB8C0 /* Main.storyboard */,
+				57F577B02142D13B006FB8C0 /* Assets.xcassets */,
+				57F577B22142D13B006FB8C0 /* LaunchScreen.storyboard */,
+				57F577B52142D13B006FB8C0 /* Info.plist */,
+				57F577C22142D32F006FB8C0 /* Resources */,
+			);
+			path = StarTrivia;
+			sourceTree = "<group>";
+		};
+		57F577C12142D31F006FB8C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				57F577BD2142D314006FB8C0 /* Starjedi.ttf */,
+				57F577BB2142D313006FB8C0 /* Starjhol.ttf */,
+				57F577BC2142D314006FB8C0 /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		57F577C22142D32F006FB8C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57F577C12142D31F006FB8C0 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57F577C32142D34F006FB8C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				57F577AB2142D139006FB8C0 /* SelectPersonVC.swift */,
+				57BC546B214A52EF00FFDAC0 /* HomeWorldVC.swift */,
+				57BC546D214A531300FFDAC0 /* VehiclesVC.swift */,
+				57BC546F214A532800FFDAC0 /* StarshipsVC.swift */,
+				57BC5471214A533F00FFDAC0 /* FilmsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		57F577C42142D35D006FB8C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57F577C62142DB5C006FB8C0 /* BlackBgView.swift */,
+				574214C7214828FD00675FFA /* FadeEnabledBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57F577C52142D365006FB8C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57958E352146B24F00EF507D /* Person.swift */,
+				57BC5473214A63B500FFDAC0 /* Homeworld.swift */,
+				57BC5477214A72C400FFDAC0 /* Vehicles.swift */,
+				577F8EBA2150F8900098E9F0 /* Starships.swift */,
+				577F8EBE21510D9B0098E9F0 /* Films.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57F577C82142DBBD006FB8C0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				57F577C92142DBD2006FB8C0 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A376A0FE5CD97C797D72C6B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8186A702543D76EE45537209 /* Pods_StarTrivia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E1B28323BD32126FAE7E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACE46F8084AF16A10B0C28FB /* Pods-StarTrivia.debug.xcconfig */,
+				FD52CE7274CAE761256AE6FC /* Pods-StarTrivia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F577A52142D139006FB8C0 /* StarTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F577B82142D13B006FB8C0 /* Build configuration list for PBXNativeTarget "StarTrivia" */;
+			buildPhases = (
+				E36F02AC714DDEBFB801E6B4 /* [CP] Check Pods Manifest.lock */,
+				57F577A22142D139006FB8C0 /* Sources */,
+				57F577A32142D139006FB8C0 /* Frameworks */,
+				57F577A42142D139006FB8C0 /* Resources */,
+				DA3813408EE61C5C69CD2172 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarTrivia;
+			productName = StarTrivia;
+			productReference = 57F577A62142D139006FB8C0 /* StarTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F5779E2142D139006FB8C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "iain Allen";
+				TargetAttributes = {
+					57F577A52142D139006FB8C0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 57F577A12142D139006FB8C0 /* Build configuration list for PBXProject "StarTrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F5779D2142D139006FB8C0;
+			productRefGroup = 57F577A72142D139006FB8C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F577A52142D139006FB8C0 /* StarTrivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F577A42142D139006FB8C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F577B42142D13B006FB8C0 /* LaunchScreen.storyboard in Resources */,
+				57F577B12142D13B006FB8C0 /* Assets.xcassets in Resources */,
+				57F577AF2142D139006FB8C0 /* Main.storyboard in Resources */,
+				57F577BF2142D314006FB8C0 /* Starjout.ttf in Resources */,
+				57F577C02142D314006FB8C0 /* Starjedi.ttf in Resources */,
+				57F577BE2142D314006FB8C0 /* Starjhol.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA3813408EE61C5C69CD2172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36F02AC714DDEBFB801E6B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarTrivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F577A22142D139006FB8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BC547A214A73BF00FFDAC0 /* VehiclesAPI.swift in Sources */,
+				574214C8214828FD00675FFA /* FadeEnabledBtn.swift in Sources */,
+				57BC5476214A644A00FFDAC0 /* HomeworldAPI.swift in Sources */,
+				577F8EBD2150FDB60098E9F0 /* StarshipsApi.swift in Sources */,
+				57958E362146B24F00EF507D /* Person.swift in Sources */,
+				57BC5470214A532800FFDAC0 /* StarshipsVC.swift in Sources */,
+				57BC5474214A63B500FFDAC0 /* Homeworld.swift in Sources */,
+				57BC546E214A531300FFDAC0 /* VehiclesVC.swift in Sources */,
+				57F577AC2142D139006FB8C0 /* SelectPersonVC.swift in Sources */,
+				57F577AA2142D139006FB8C0 /* AppDelegate.swift in Sources */,
+				577F8EC121510E8F0098E9F0 /* FilmApi.swift in Sources */,
+				57F577C72142DB5C006FB8C0 /* BlackBgView.swift in Sources */,
+				57958E342146AC6600EF507D /* PersonAPI.swift in Sources */,
+				577F8EBB2150F8900098E9F0 /* Starships.swift in Sources */,
+				577F8EBF21510D9B0098E9F0 /* Films.swift in Sources */,
+				57BC5472214A534000FFDAC0 /* FilmsVC.swift in Sources */,
+				57BC546C214A52EF00FFDAC0 /* HomeWorldVC.swift in Sources */,
+				57BC5478214A72C400FFDAC0 /* Vehicles.swift in Sources */,
+				57F577CA2142DBD2006FB8C0 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57F577AD2142D139006FB8C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F577AE2142D139006FB8C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57F577B22142D13B006FB8C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F577B32142D13B006FB8C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57F577B62142D13B006FB8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57F577B72142D13B006FB8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F577B92142D13B006FB8C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE46F8084AF16A10B0C28FB /* Pods-StarTrivia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QTR9Q7VE2;
+				INFOPLIST_FILE = StarTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iain.allen.StarTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57F577BA2142D13B006FB8C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD52CE7274CAE761256AE6FC /* Pods-StarTrivia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QTR9Q7VE2;
+				INFOPLIST_FILE = StarTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iain.allen.StarTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F577A12142D139006FB8C0 /* Build configuration list for PBXProject "StarTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F577B62142D13B006FB8C0 /* Debug */,
+				57F577B72142D13B006FB8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F577B82142D13B006FB8C0 /* Build configuration list for PBXNativeTarget "StarTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F577B92142D13B006FB8C0 /* Debug */,
+				57F577BA2142D13B006FB8C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F5779E2142D139006FB8C0 /* Project object */;
+}
